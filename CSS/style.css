@@ -1,0 +1,67 @@
+body{
+    background-color: #073b4c;
+}
+
+*, p, h1 {
+    color:white
+}
+
+.subject-info{
+    font-size: 24px;
+    font-style: italic;
+    font-family: math;
+}
+
+.myinput{
+    background-color: #118ab2;
+    color: whitesmoke;
+    max-width: 100%;
+    min-width: 100%;
+    border: 0;
+    border-radius: 8px;
+    font-size: 30px;
+    text-align: center;
+    padding: 1.45em 0;
+}
+
+button.mybutton {
+    width: 10%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 0.25em 0px;
+    
+}
+
+button.mybutton:hover{
+    cursor: pointer;
+    color: white;
+    background: black;
+}
+
+.mybutton.konversi{
+    background: #ef476f;
+    color: black;
+}
+
+.mybutton.reset{
+    background: white;
+    color: black;
+}
+
+.mybutton.reverse{
+    background: #ffd166;
+    color: black;
+}
+
+label#PeringatanFahrenheit,label#PeringatanCelcius {
+    position: absolute;
+    padding: 1.25em;
+    margin-top: 5em;
+    color: red;
+    display: none;
+}
+
+table{
+    width: 100%;
+}
